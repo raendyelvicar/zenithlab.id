@@ -15,6 +15,10 @@ export default function Home() {
           <Image src={profilePic} width={500} height={500} alt="Hero Picture"></Image>
         </div>
         <div className="text-base">
+          <p className="font-bold">
+            Hi, I am Raendy...
+          </p>
+          <br></br>
           <p>
             I created this website as part of my learning journey and to let you get to know me better! 🌟
           </p>
@@ -68,6 +72,10 @@ export default function Home() {
             ようこそ！
           </h1>
           <div className="w-full xl:w-4/5">
+            <p className="font-bold">
+              Hi, I am Raendy...
+            </p>
+            <br></br>
             <p>
               I created this website as part of my learning journey and to let you get to know me better! 🌟
               I also enjoy crafting websites, so I’ll likely share updates about my works or projects here.
