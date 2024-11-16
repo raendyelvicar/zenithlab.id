@@ -10,7 +10,7 @@ export default {
   theme: {
   	extend: {
   		colors: {
-  			background: 'hsl(var(--background))',
+  			background: '#FFFDE2',
   			foreground: 'hsl(var(--foreground))',
   			card: {
   				DEFAULT: 'hsl(var(--card))',
@@ -61,11 +61,26 @@ export default {
   				ring: 'hsl(var(--sidebar-ring))'
   			}
   		},
+
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
-  		}
+  		},
+		fontSize: {
+			sm: '0.8rem',
+			base: '1rem',
+			xl: '1.25rem',
+			'2xl': '1.563rem',
+			'3xl': '1.953rem',
+			'4xl': '2.441rem',
+			'5xl': '3.052rem',
+			'6xl': '4.052rem',
+			'7xl': '5.052rem',
+			'8xl': '6.052rem',
+			'9xl': '7.052rem',
+			'10xl': '10rem',
+		}
   	}
   },
   plugins: [require("tailwindcss-animate")],
