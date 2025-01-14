@@ -65,7 +65,7 @@ export default function Home() {
             </Link>
           </div>
         <div className="img-wrapper">
-            <Image src={profilePic} width={1000} height={1000} alt="Hero Picture"></Image>
+            <Image src={profilePic} width={900} height={900} alt="Hero Picture"></Image>
         </div>
         <div className="speech-wrapper">
           <h1 className="scroll-m-20 font-extrabold tracking-tight mb-8 text-6xl xl:text-8xl font-[family-name:var(--font-noto-sans)]">
